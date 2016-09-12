@@ -1,0 +1,11 @@
+# See http://docs.chef.io/config_rb_knife.html for more information on knife configuration options
+
+current_dir = File.dirname(__FILE__)
+log_level                :info
+log_location             STDOUT
+node_name                "tnargnai"
+client_key               "#{current_dir}/tnargnai.pem"
+validation_client_name   "tnarg-validator"
+validation_key           "#{current_dir}/tnarg-validator.pem"
+chef_server_url          "https://api.chef.io/organizations/tnarg"
+cookbook_path            ["#{current_dir}/../cookbooks"]
