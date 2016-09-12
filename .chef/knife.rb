@@ -8,4 +8,4 @@ client_key               "#{current_dir}/tnargnai.pem"
 validation_client_name   "tnarg-validator"
 validation_key           "#{current_dir}/tnarg-validator.pem"
 chef_server_url          "https://api.chef.io/organizations/tnarg"
-cookbook_path            ["#{current_dir}/../cookbooks"]
+cookbook_path            ["#{current_dir}/../"]
